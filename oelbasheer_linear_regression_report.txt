@@ -1,0 +1,16 @@
+Data Source: Pepe, et al. “Simple Linear Regression Examples: Real Life Problems &amp; Solutions.” Blog For Data-Driven Business, 24 May 2020, https://www.intellspot.com/linear-regression-examples/. 
+
+What does the model achieve?
+- Derives linear correlation between car age and prices
+How should metrics be interpreted?
+- P-value indicates significance of data based on a threshold of 0.05; in this case p-value is < 0.0001 which means the test statistics falls into rejection region and null hypothesis is to be rejected
+- R-square indicates variability in data accounted for by the model; in this case r-square is 0.9121 which means that 91% of data variability in the data is explained by the model 
+- Slope shows relationship between car age and prices for model in addition to intercept
+What are appropriate use cases?
+- correlating two variables that are expected to have a linear relationship
+How is it implemented? 
+- Minimizing residuals (difference between model and each data point)
+What are caveats/biases/concerns to its usage?
+- Doesn't include car make and model 
+How to interpret this specific result and advising action/next steps
+- Car price is strongly correlated with car age, car price decreases with age   
